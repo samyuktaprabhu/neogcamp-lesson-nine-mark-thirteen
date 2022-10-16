@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  background-image: url('/images/bday2.avif');
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --primary-color: #50d5ed;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  background-color: white;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer-header {
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-size: large;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-envelope {
+  background: #970d0d;
+  color: white;
+}
+
+h2,
+h5,
+h1,
+h3 {
+  color: black;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+#input-number {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  width: 25%;
+}
+
+#input-birthday {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  width: 25%;
+}
+
+.head {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
